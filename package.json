@@ -1,0 +1,36 @@
+{
+  "name": "base64-string-s3",
+  "version": "0.0.1",
+  "description": "Stream a base64 encoded string directly to aws s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stringhq/base64-string-s3.git"
+  },
+  "keywords": [
+    "base64",
+    "string",
+    "stream",
+    "stream string",
+    "stream base64 string",
+    "aws s3",
+    "s3"
+  ],
+  "author": "Joel Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stringhq/base64-string-s3/issues"
+  },
+  "homepage": "https://github.com/stringhq/base64-string-s3",
+  "dependencies": {
+    "base64-stream": "^0.1.2",
+    "knox": "^0.8.10"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.3.1"
+  }
+}
