@@ -65,6 +65,24 @@ You can install using [npm](http://npmjs.org)
 
 `npm install base64-string-s3`
 
+Callbacks
+------------
+If you want to perform some logic after the file has been uploaded you can pass
+in an optional callback
+
+```js
+// put arguments: base64 string, object key, mime type, permissions, callback
+putter.put(
+  base64data,
+  'images/success.jpg',
+  'image/jpeg',
+  'public-read',
+  Meteor.bindEnvironment(function(res) {
+    console.log('do something with response', res)
+  })
+);
+```
+
 License
 -------
 
