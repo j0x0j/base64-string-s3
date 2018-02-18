@@ -1,7 +1,7 @@
 Base64 string (stream) to s3
 ============================
 
-[![npm](https://img.shields.io/npm/dm/base64-string-s3.svg)]()
+[![npm](https://img.shields.io/npm/dm/base64-string-s3.svg)](https://www.npmjs.com/package/base64-string-s3)
 
 Stream a base64 encoded string directly to aws s3
 
